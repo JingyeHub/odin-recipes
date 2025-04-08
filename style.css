@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    width: 400px;
+    margin: 20px auto 30px auto;
+}
+
+h1,
+h2 {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Georgia, serif;
+}
+
+
+
+#lists {
+    display: flex;
+}
+
+#soups,
+#meats,
+#vegetables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex-basis: 500px;
+}
+
+#soups,
+#meats {
+    border-right: 2px dotted black;
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+
+}
+
+/* Hover effect */
